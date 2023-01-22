@@ -1,0 +1,13 @@
+project hosted on a virtual machine
+    ----> Resorce group for all resources
+        ----> Virtual network and subnets for security
+            ----> Virtual machine to host application
+                ----> DB to read/write data from
+
+
+Infra consists of the below, and created using terraform 
+1. Virtual network
+2. subnets
+3. Virtual machine
+4. Resource group
+5. Database
